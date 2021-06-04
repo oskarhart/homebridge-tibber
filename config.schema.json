@@ -1,0 +1,27 @@
+{
+    "pluginAlias": "tibber-power-consumption",
+    "pluginType": "accessory",
+    "singular": true,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "title": "Name",
+                "type": "string",
+                "required": true
+            },
+            "schema": {
+                "title": "apiKey",
+                "type": "string",
+                "required": true,
+                "description": "tibber apiKey."
+            },
+            "schema": {
+                "title": "apiKey",
+                "type": "string",
+                "required": true,
+                "description": "tibber homeId."
+            }
+        }
+    }
+}
