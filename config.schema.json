@@ -26,14 +26,14 @@
                 "title": "feedUrl",
                 "type": "string",
                 "required": true,
-                "default": wss://api.tibber.com/v1-beta/gql/subscriptions,
+                "default": "wss://api.tibber.com/v1-beta/gql/subscriptions",
                 "description": "defult"
             },
             "schema": {
                 "title": "queryUrl",
                 "type": "string",
                 "required": true,
-                "default": https://api.tibber.com/v1-beta/gql,
+                "default": "https://api.tibber.com/v1-beta/gql",
                 "description": "defult"
             }           
         }
