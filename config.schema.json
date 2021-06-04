@@ -17,11 +17,25 @@
                 "description": "tibber apiKey."
             },
             "schema": {
-                "title": "apiKey",
+                "title": "homeId",
                 "type": "string",
                 "required": true,
                 "description": "tibber homeId."
-            }
+            },
+            "schema": {
+                "title": "feedUrl",
+                "type": "string",
+                "required": true,
+                "default": wss://api.tibber.com/v1-beta/gql/subscriptions,
+                "description": "defult"
+            },
+            "schema": {
+                "title": "queryUrl",
+                "type": "string",
+                "required": true,
+                "default": https://api.tibber.com/v1-beta/gql,
+                "description": "defult"
+            }           
         }
     }
 }
